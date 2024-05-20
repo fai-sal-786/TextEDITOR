@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIMPLE TEXT EDITOR</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- <h1>TextEditor</h1> -->
+    <div class="editor" contenteditable="true" id="editor">
+        Type your text here        
+     </div>
+     <div class="toolbar">
+        <button onclick="boldText()">Bold</button>
+        <button onclick="italicText()">Italic</button>
+        <button onclick="attachFile()">Attach</button>
+        <button onclick="insertImage()">Insert Image</button>
+        <button onclick="incrementIndentation()">Indent</button>
+        <button onclick="decrementIndentation()">Qutdent</button>
+
+     </div>
+    
+    
+    <script src="app.js"></script>
+</body>
+</html>

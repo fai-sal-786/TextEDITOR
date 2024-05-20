@@ -1,0 +1,15 @@
+.editor{
+    border: 1px solid #ccc;
+    min-height: 200px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.toolbar{
+    margin-top: 10px;
+}
+
+.toolbar button {
+    padding: 5px 10px;
+    margin-right: 5px;
+    cursor: pointer;
+}
